@@ -13,7 +13,7 @@
   streamingSet.scala设置log4j。\
   用sbt打包程序。\
 3.字母识别的多分类任务\
-  数据集：https://archive.ics.uci.edu/ml/datasets/Letter+Recognition\
+  数据集：https://archive.ics.uci.edu/ml/datasets/Letter+Recognition  
   使用spark-shell交互式编程，过程代码记录在LetterRecognition.scala。\
   使用Spark Mlib调用机器学习模型计算，使用Pipeline构建机器学习工作流。\
   使用PCA进行特征降维处理，调用逻辑回归模型、决策树模型和随机森林模型进行训练，训练accuracy分别为：0.7171，0.7909，0.9153。\
